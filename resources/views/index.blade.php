@@ -12,7 +12,7 @@
     @csrf	
       <input type="string" name="number_bidding" placeholder="Введите номер торгов">
       <input type="number" name="number_lot" placeholder="Введите номер лота">
-      <input class="submit" type="submit" value="Поиск">
+      <input class="submit" type="submit" value="Найти">
     </form>
 
   <table class="table">
