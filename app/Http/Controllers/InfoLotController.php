@@ -36,7 +36,6 @@ class InfoLotController extends Controller
         $lot->number_bankruptcy_case = $numberBankruptcyCase;
         $lot->trading_date = $tradingDate;
         $lot->save();
-
         return redirect()->action([LotController::class, 'index']);
     }
 }

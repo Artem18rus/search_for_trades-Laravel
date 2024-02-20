@@ -11,7 +11,8 @@ class LotController extends Controller
 
     public function index()
     {
-        return view('index');
+        $infoLot = InfoLot::all();
+        return view('index', ['infoLot' => $infoLot]);
     }
     public function store(Request $request)
     {

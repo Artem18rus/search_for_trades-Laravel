@@ -20,6 +20,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        view()->share(['infoLot' => InfoLot::all()]);
+        // view()->share(['infoLot' => InfoLot::all()]);
     }
 }

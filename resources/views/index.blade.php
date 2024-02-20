@@ -15,6 +15,7 @@
       <input class="submit" type="submit" value="Найти">
     </form>
 
+    {{-- {{$infoLot}} --}}
   <table class="table">
     <p>Найденные торги:</p>
     <tr>
